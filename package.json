@@ -26,7 +26,7 @@
   "homepage": "https://github.com/romainhild/node-rtorrent-scgi#readme",
   "dependencies": {
     "xmlrpc-socket": "^1.0.0"
-  }
+  },
   "devDependencies": {
     "vows": "0.7.x"
   },
