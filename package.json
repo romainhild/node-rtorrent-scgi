@@ -1,0 +1,37 @@
+{
+  "name": "rtorrent-scgi",
+  "version": "0.0.1",
+  "description": "An interface to use rtorrent",
+  "main": "./lib/rtorrent.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "vows 'test/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romainhild/node-rtorrent-scgi.git"
+  },
+  "keywords": [
+    "rtorrent",
+    "scgi",
+    "xmlrpc"
+  ],
+  "author": "Romain Hild",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romainhild/node-rtorrent-scgi/issues"
+  },
+  "homepage": "https://github.com/romainhild/node-rtorrent-scgi#readme",
+  "dependencies": {
+    "xmlrpc-socket": "^1.0.0"
+  }
+  "devDependencies": {
+    "vows": "0.7.x"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "npm": ">=1.0.0"
+  }
+}
